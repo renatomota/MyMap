@@ -1,0 +1,15 @@
+# Podfile content
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ’8’
+
+target 'MyMap' do
+  react_native_path = "../node_modules/react-native"
+  pod "Yoga", :path => "#{react_native_path}/ReactCommon/yoga"
+  pod "React", :path => react_native_path
+
+  pod 'GooglePlaces', '2.2.0'
+  pod 'GoogleMaps', '2.2.0'
+  pod 'GooglePlacePicker', '2.2.0'
+
+end

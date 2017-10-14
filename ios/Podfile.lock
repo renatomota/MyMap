@@ -1,0 +1,40 @@
+PODS:
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.2.0):
+    - GoogleMaps (= 2.2.0)
+    - GooglePlaces (= 2.2.0)
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - React (0.46.0):
+    - React/Core (= 0.46.0)
+  - React/Core (0.46.0):
+    - Yoga (= 0.46.0.React)
+  - Yoga (0.46.0.React)
+
+DEPENDENCIES:
+  - GoogleMaps (= 2.2.0)
+  - GooglePlacePicker (= 2.2.0)
+  - GooglePlaces (= 2.2.0)
+  - React (from `../node_modules/react-native`)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  Yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlacePicker: 345b1aabd42c9d6d9bf2369c1bae1234d903e764
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  React: 4abfe5e6edc21890e897b7c981de86c3323e43ed
+  Yoga: a193870f660c42adf15f7848f5ad2d18c254a87c
+
+PODFILE CHECKSUM: ae6ec55f74d3d25dcbc6e0b0f7d1fd62b629470c
+
+COCOAPODS: 1.2.1
