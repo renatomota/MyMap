@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -83,7 +82,6 @@
 		88B9E1AD1F071BF000DD7FC5 /* libLottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B9E1901F07100100DD7FC5 /* libLottie.a */; };
 		88B9E1AE1F071BFD00DD7FC5 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B9E18C1F07100100DD7FC5 /* Lottie.framework */; };
 		88B9E1AF1F071BFD00DD7FC5 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88B9E18C1F07100100DD7FC5 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		88E1D2541EEC567500616607 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E1D20D1EEC560700616607 /* libBVLinearGradient.a */; };
 		91CEAFAE66F04F68A425D912 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B40F501F00CF466D8BF4FEE3 /* Foundation.ttf */; };
 		91EC1E1C46F14F3D83C10138 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76C000D45AC04338A27AA41D /* Rubik-Italic.ttf */; };
 		93A1263080654736B7D39690 /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6279E01741B48208543553F /* Comic Sans MS.ttf */; };
@@ -341,13 +339,6 @@
 			remoteGlobalIDString = 62CA59B71E3C173B002D7188;
 			remoteInfo = Lottie_iOS;
 		};
-		88E1D20C1EEC560700616607 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A0556E7ED7048E988F3AB5F /* BVLinearGradient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = BVLinearGradient;
-		};
 		88E1D2281EEC560700616607 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0864B265C7F14678AD64E713 /* RNVectorIcons.xcodeproj */;
@@ -399,7 +390,6 @@
 		282A2D26D68E414CAF3B3D66 /* Times New Roman.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Times New Roman.ttf"; path = "../node_modules/native-base/Fonts/Times New Roman.ttf"; sourceTree = "<group>"; };
 		2870844BE9891EB671C872E1 /* Pods-MyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMap/Pods-MyMap.release.xcconfig"; sourceTree = "<group>"; };
 		2933CA77D6CB4A4A9A45A7EC /* Courier New.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Courier New.ttf"; path = "../node_modules/native-base/Fonts/Courier New.ttf"; sourceTree = "<group>"; };
-		2A0556E7ED7048E988F3AB5F /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MyMap-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyMap-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MyMap-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyMap-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDD60F31537405C9DCFFFD6 /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../node_modules/native-base/Fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
@@ -501,7 +491,6 @@
 				88B9E1AE1F071BFD00DD7FC5 /* Lottie.framework in Frameworks */,
 				887EA3BD1EEDBAF500905449 /* libRNGooglePlaces.a in Frameworks */,
 				888C262A1EECB5F30098AC0E /* libRNVectorIcons.a in Frameworks */,
-				88E1D2541EEC567500616607 /* libBVLinearGradient.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -693,7 +682,6 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				D878C334DC2E4435B42DA73E /* AirMaps.xcodeproj */,
 				0864B265C7F14678AD64E713 /* RNVectorIcons.xcodeproj */,
-				2A0556E7ED7048E988F3AB5F /* BVLinearGradient.xcodeproj */,
 				6D8370517EE744B980FDBC0B /* LottieReactNative.xcodeproj */,
 				453CE2C9B8D944719E807107 /* Lottie.xcodeproj */,
 			);
@@ -812,14 +800,6 @@
 				88B9E18C1F07100100DD7FC5 /* Lottie.framework */,
 				88B9E18E1F07100100DD7FC5 /* Lottie.framework */,
 				88B9E1901F07100100DD7FC5 /* libLottie.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		88E1D2061EEC560700616607 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				88E1D20D1EEC560700616607 /* libBVLinearGradient.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1003,10 +983,6 @@
 				{
 					ProductGroup = 8854EEAA1EE342EF00C14F75 /* Products */;
 					ProjectRef = D878C334DC2E4435B42DA73E /* AirMaps.xcodeproj */;
-				},
-				{
-					ProductGroup = 88E1D2061EEC560700616607 /* Products */;
-					ProjectRef = 2A0556E7ED7048E988F3AB5F /* BVLinearGradient.xcodeproj */;
 				},
 				{
 					ProductGroup = 88B9E1841F07100100DD7FC5 /* Products */;
@@ -1297,13 +1273,6 @@
 			remoteRef = 88B9E18F1F07100100DD7FC5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		88E1D20D1EEC560700616607 /* libBVLinearGradient.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBVLinearGradient.a;
-			remoteRef = 88E1D20C1EEC560700616607 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		88E1D2291EEC560700616607 /* libRNVectorIcons.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1567,8 +1536,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1598,8 +1565,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1700,8 +1665,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1739,8 +1702,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1769,8 +1730,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MyMap-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1795,8 +1754,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MyMap-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
